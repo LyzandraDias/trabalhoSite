@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		.container {
+			background-color: #ddd;
+			padding: 10px;
+		}
+
+		.container-titulo {
+			text-align: center;
+		}
+
+		.container-titulo h1 {
+			font-size: 30px;
+		}
+
+		.container-slides-visible {
+			max-width: 1200px;
+			width: 90%;
+			overflow: hidden;
+			margin: auto;
+			position: relative;
+		}
+
+		.container-slides {
+			width: 12000px;
+			overflow: hidden;
+			position: relative;
+		}
+
+		.slide {
+			float: left;
+			height: 250px;
+			width: 350px;
+			margin: 10px;
+			box-shadow: 5px 5px 25px #888888;
+			transition: 1s all;
+			position: relative;
+		}
+
+		.slide-img {
+			background-color: blue;
+			height: 70%;
+			overflow: hidden;
+		}
+
+		.slide-img img {
+			width: 100%;
+		}
+
+		.slide-text {
+			padding: 10px;
+			height: 30%;
+			text-align: center;
+			background-color: #fff;
+		}
+
+		.sub {
+			font-size: 12px;
+			margin-bottom: 0;
+		}
+
+		.principal {
+			font-size: 32px;
+			margin-top: 0px;
+		}
+
+		.passador {
+			font-size: 40px;
+			color: rgba(102, 204, 255, 0.5);
+			position: absolute;
+			top: 50%;
+			background-color: #aaa;
+			height: 100%;
+			width: 50px;
+			text-align: center;
+		}
+
+		.passador-direito {
+			right: 0px;
+		}
+
+		.passador-esquerdo {
+			left: 0px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="container-titulo">
+			<h1>Escolha sua temporada</h1>
+		</div>
+
+		<div class="container-slides-visible">
+			<div class="container-slides">
+				<div class="slide">
+					<div class="slide-img">
+						<img src="https://www.hbo.com/content/dam/hbodata/series/true-blood/episodes/1/true-blood-1-3000x1688.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg">
+					</div>
+
+					<div class="slide-text">
+						<h1 class="sub">TEMPORADA</h1>
+						<h1 class="principal">1</h1>
+					</div>
+				</div>
+
+				<div class="slide">
+					<div class="slide-img">
+						<img src="https://www.hbo.com/content/dam/hbodata/series/true-blood/episodes/1/true-blood-1-3000x1688.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg">
+					</div>
+
+					<div class="slide-text">
+						<h1 class="sub">TEMPORADA</h1>
+						<h1 class="principal">1</h1>
+					</div>
+				</div>
+
+				<div class="slide">
+					<div class="slide-img">
+						<img src="https://www.hbo.com/content/dam/hbodata/series/true-blood/episodes/1/true-blood-1-3000x1688.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg">
+					</div>
+
+					<div class="slide-text">
+						<h1 class="sub">TEMPORADA</h1>
+						<h1 class="principal">1</h1>
+					</div>
+				</div>
+
+				<div class="slide">
+					<div class="slide-img">
+						<img src="https://www.hbo.com/content/dam/hbodata/series/true-blood/episodes/1/true-blood-1-3000x1688.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg">
+					</div>
+
+					<div class="slide-text">
+						<h1 class="sub">TEMPORADA</h1>
+						<h1 class="principal">1</h1>
+					</div>
+				</div>
+
+				<div class="slide">
+					<div class="slide-img">
+						<img src="https://www.hbo.com/content/dam/hbodata/series/true-blood/episodes/1/true-blood-1-3000x1688.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg">
+					</div>
+
+					<div class="slide-text">
+						<h1 class="sub">TEMPORADA</h1>
+						<h1 class="principal">1</h1>
+					</div>
+				</div>
+
+				<div class="slide">
+					<div class="slide-img">
+						<img src="https://www.hbo.com/content/dam/hbodata/series/true-blood/episodes/1/true-blood-1-3000x1688.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg">
+					</div>
+
+					<div class="slide-text">
+						<h1 class="sub">TEMPORADA</h1>
+						<h1 class="principal">1</h1>
+					</div>
+				</div>
+
+				<div class="slide">
+					<div class="slide-img">
+						<img src="https://www.hbo.com/content/dam/hbodata/series/true-blood/episodes/1/true-blood-1-3000x1688.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg">
+					</div>
+
+					<div class="slide-text">
+						<h1 class="sub">TEMPORADA</h1>
+						<h1 class="principal">1</h1>
+					</div>
+				</div>
+
+				<div class="slide">
+					<div class="slide-img">
+						<img src="https://www.hbo.com/content/dam/hbodata/series/true-blood/episodes/1/true-blood-1-3000x1688.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg">
+					</div>
+
+					<div class="slide-text">
+						<h1 class="sub">TEMPORADA</h1>
+						<h1 class="principal">1</h1>
+					</div>
+				</div>
+
+				<div class="slide">
+					<div class="slide-img">
+						<img src="https://www.hbo.com/content/dam/hbodata/series/true-blood/episodes/1/true-blood-1-3000x1688.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg">
+					</div>
+
+					<div class="slide-text">
+						<h1 class="sub">TEMPORADA</h1>
+						<h1 class="principal">1</h1>
+					</div>
+				</div>
+
+				<div class="slide">
+					<div class="slide-img">
+						<img src="https://www.hbo.com/content/dam/hbodata/series/true-blood/episodes/1/true-blood-1-3000x1688.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg">
+					</div>
+
+					<div class="slide-text">
+						<h1 class="sub">TEMPORADA</h1>
+						<h1 class="principal">1</h1>
+					</div>
+				</div>
+
+				<div class="slide">
+					<div class="slide-img">
+						<img src="https://www.hbo.com/content/dam/hbodata/series/true-blood/episodes/1/true-blood-1-3000x1688.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg">
+					</div>
+
+					<div class="slide-text">
+						<h1 class="sub">TEMPORADA</h1>
+						<h1 class="principal">1</h1>
+					</div>
+				</div>
+
+				<div class="slide">
+					<div class="slide-img">
+						<img src="https://www.hbo.com/content/dam/hbodata/series/true-blood/episodes/1/true-blood-1-3000x1688.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg">
+					</div>
+
+					<div class="slide-text">
+						<h1 class="sub">TEMPORADA</h1>
+						<h1 class="principal">1</h1>
+					</div>
+				</div>
+
+				<div class="slide">
+					<div class="slide-img">
+						<img src="https://www.hbo.com/content/dam/hbodata/series/true-blood/episodes/1/true-blood-1-3000x1688.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg">
+					</div>
+
+					<div class="slide-text">
+						<h1 class="sub">TEMPORADA</h1>
+						<h1 class="principal">1</h1>
+					</div>
+				</div>
+			</div>
+
+			<div class="passador passador-esquerdo" onclick="animar(0, 0)">&#8249;</div>
+			<div class="passador passador-direito">&#8250;</div>
+		</div>
+	</div>
+
+	<script>
+		function passar(value) {
+			var elementos = document.getElementsByClassName("slide");
+
+			for (var i = 0; i < elementos.length; ++i) {
+				elementos[i].style.left = "" + value + "px";
+			}
+		}
+
+		function animar(count, value) {
+			if (count < 60) {
+				window.requestAnimationFrame(function() {
+					passar(value);
+					animar(count + 1, value - 10);
+				});
+			}
+		}
+	</script>
+</body>
+</html>
