@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <meta charset="utf-8">
+       <meta name="viewport">
+       <style>
+       	 body{
+        margin:0;
+        padding:0;
+       }
+        .secao-inicio{
+          background-image:url(https://vignette3.wikia.nocookie.net/trueblood/images/8/89/True_blood_wallpaper_V3_by_TwistedEffect.png/revision/latest?cb=20110704211007);
+          height:1000px;
+          background-position-x: -90px;
+        }  
+        .info2 {
+        	text-align: center;
+        	margin:auto;
+        	margin-top: 70px;
+        	
+        }
+        .info2 h1{
+            font-size:50px;
+            text-align: center;
+            font-family: 'Spectral SC', serif;
+            color:#8B0000;
+        }
+      
+        .info2 p{
+        	text-align: justify;
+        	padding:30px;
+        }
+       </style>
+    </head>
+      <body>
+         <section class ="secao-inicio">
+         </section>
+         <section class = " info2 ata"> 
+         	<h1>SOBRE A SÉRIE</h1>
+         	 
+         	 	 <p>True Blood (título no Brasil) True Blood e em (Portugal) Sangue Fresco) foi uma série de televisão norte-americana criada por Alan Ball, baseada na série de livros The Southern Vampire Mysteries da escritora Charlaine Harris. O programa é exibido pela HBO nos Estados Unidos e foi ao ar pela primeira vez no dia 7 de Setembro de 2008.True Blood fala sobre a co-existência de vampiros e humanos em "Bon Temps", uma pequena cidade fictícia localizada em Louisiana. A série é focada em Sookie Stackhouse (Anna Paquin), uma garçonete telepata que se apaixona pelo vampiro Bill Compton (Stephen Moyer).Exibida no Brasil pela HBO aos domingos e na TV Aberta de 13 janeiro de 2013 a 16 de março de 2014 no SBT, na madrugada de domingo para segunda após o De Frente com Gabi. Em Portugal a série estreou em canal aberto pela RTP mas é transmitida em exclusivo pelo canal de cabo MOV, que estreou a primeira temporada em dezembro de 2008.A série recebeu elogios da crítica e ganhou vários prêmios, incluindo um Globo de Ouro, um Emmy e quatro Satellite Awards.</p>
+           
+
+
+         </section>
+        </body>
+</html>         	
+ 
