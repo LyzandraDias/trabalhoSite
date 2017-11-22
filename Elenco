@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <link href="https://fonts.googleapis.com/css?family=Linden+Hill" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+        <style> 
+            body {
+                margin:0px;
+                padding:0px;
+                background-color:#DCDCDC;
+            }
+            .box1 img {
+              width:100%;
+              padding-top:0px;
+              
+            } 
+
+            .intro { 
+                text-align:center;
+                font-size:30px;
+                font-family: 'Linden Hill', serif;
+                padding-top:80px;
+            } 
+
+            .imagens { 
+               margin:auto;
+               width:70%;
+               padding-top:90px;
+              
+              
+            } 
+
+            .box2 {  
+     
+                float:left;
+                margin-bottom: 70px;
+                width:33%;
+            }
+
+            .box2 img { 
+              width:200px;
+              padding-left:80px;
+              position:center;
+            } 
+
+            .box2 p { 
+                line-height: 0.0;
+                text-align: center;
+                font-family: 'Quicksand', sans-serif;
+            } 
+
+            .box2 h1 {
+                font-size:30px;
+                margin-top:5px;
+                text-align:center;
+                padding-top: 5px;
+                font-family: 'Libre Baskerville', serif;
+                padding-left:5px;
+            } 
+
+            .box2:hover { 
+                background-color: #CDC9C9;
+                transition: all 0.5s;
+            } 
+       
+        </style>
+    </head>
+
+    <body> 
+
+        <section class="S-inicio"> 
+            <div class="box1">
+                <img src="https://i.imgur.com/1xDu7xJ.png">
+            </div> 
+        </section> 
+       
+        <section class="intro">
+            <h1>Acho que já conheceram um pouco da série Teen Wolf, não é mesmo?<br> Que tal conhecer as pessoas que a realizaram?</h1> 
+        </section>
+
+        <section class="imagens">
+            <div class="box2">
+               <a href=""><img src=""></a>
+                <h1>Sookie Stachouse</h1>
+                <p>Anna Paquin</p>
+            </div>
+
+            <div class="box2">
+                 <a href=""><img src=""></a>
+                 <h1>Bill Compton</h1>
+                 <p>Stephen Moyer</p>
+            </div>
+
+            <div class="box2">
+               <a href=""><img src=""></a>
+                <h1>Sam Merlotte</h1>
+                <p>Sam Trammell</p>
+            </div> 
+
+            <div class="box2">
+               <a href=""> <img src=""></a>
+                <h1>Jason Stackhouse</h1>
+                <p>Ryan Kwanten</p>
+            </div>
+
+           <div class="box2">
+               <a href=""> <img src=""></a>
+                <h1>Tara Thornton</h1>
+                <p>Rutina Wesley</p>
+            </div>
+
+            <div class="box2">
+               <a href=""> <img src=""></a>
+                <h1>Pam Swynford</h1>
+                <p>Kristin Bauer/p>
+            </div>
+
+            <div class="box2">
+               <a href=""> <img src=""></a>
+                <h1>Lafayette Reynolds</h1>
+                <p>Nelsan Ellis</p>
+            </div>
+
+            <div class="box2">
+               <a href=""> <img src=""></a>
+                <h1>Erick Northman</h1>
+                <p>Alexander Skarsgard</p>
+            </div>
+
+            <div class="box2">
+               <a href=""> <img src=""></a>
+                <h1>Jessica Hamby</h1>
+                <p>Deborah Ann Woll</p>
+            </div>
+
+            <div class="box2">
+               <a href=""> <img src=""></a>
+                <h1>Arlene Fowler</h1>
+                <p>Carrie Preston</p>
+            </div>
+
+            <div class="box2">
+               <a href=""> <img src=""></a>
+                <h1>Andy Bellefleur</h1>
+                <p>Chris Bauer</p>
+            </div>
+
+            <div class="box2">
+               <a href=""><img src=""></a>
+                <h1>Holly Clreary</h1>
+                <p>Lauren Bowles</p>
+            </div>
+
+            <div class="box2">
+               <a href=""><img src=""></a>
+                <h1>Alcide Herveaux</h1>
+                <p>Joe Manganiello</p>
+            </div>
+
+            <div class="box2">
+               <a href=""> <img src=""></a>
+                <h1>Sarah Newlin</h1>
+                <p>Anna Camp</p>
+            </div>
+
+            <div class="box2">
+                   <a href=""> <img src=""></a>
+                    <h1>Hoyt Fortenberry</h1>
+                    <p>Jim Parrack</p>
+            </div> 
+
+            <div class="box2">
+                   <a href=""> <img src="/"></a> 
+                    <h1>Willa Burrell</h1>
+                    <p>Amelia Rose Blaire</p>
+            </div>
+
+            <div class="box2">
+               <a href=""> <img src=""></a>
+                <h1>Nicole Wright</h1>
+                <p>Jurnee Smollett-bell</p>
+            </div>
+
+            <div class="box2">
+               <a href=""> <img src=""></a>
+                <h1>James Kent</h1>
+                <p>Nathan Parson</p>
+            </div>
+
+            <div class="box2">
+               <a href=""> <img src=""></a>
+                <h1>Violet Mazurski</h1>
+                <p>Karolina Wydra</p>
+            </div> 
+
+            <div class="box2">
+               <a href=""> <img src=""></a>
+                <h1>Adilyn Bellefleur</h1>
+                <p>Bailey Noble</p>
+            </div>
+
+            <div class="box2">
+               <a href=""> <img src=""></a>
+                <h1>Reverend daniels</h1>
+                <p>Gregg Daniel</p>
+            </div> 
+
+            <div class="box2">
+               <a href=""> <img src=""></a>
+                <h1>Lettie Mae Daniels</h1>
+                <p>Adina Porter</p>
+            </div>
+
+            <div class="box2">
+                <a href=""> <img src=""></a>
+                <h1>Lorena</h1>
+                <p>Mariana Klaveno</p>
+            </div>
+
+            <div class="box2">
+                   <a href=""> <img src=""></a>
+                    <h1>Maryann Forrester</h1>
+                    <p>Michelle Forbes</p>
+            </div>
+
+            <div class="box2">
+                   <a href=""> <img src=""></a>
+                    <h1>Sheriff Bud Dearborne</h1>
+                    <p>William Sanderson</p>
+            </div>
+
+            <div class="box2">
+                   <a href=""> <img src=""></a>
+                    <h1>Eggs(Benedict Talley)</h1>
+                    <p>Mehcad Brooks</p>
+            </div>
+
+            <div class="box2">
+                   <a href=""> <img src=""></a>
+                    <h1>Rene Lenier</h1>
+                    <p>Michael Raymond James</p>
+            </div>
+
+            <div class="box2">
+                   <a href=""> <img src=""></a>
+                    <h1>Terry Bellefleur</h1>
+                    <p>Todd Lowe</p>
+            </div>
+
+            <div class="box2">
+                   <a href=""> <img src=""></a>
+                    <h1>Maxine Fortenberry</h1>
+                    <p>Dale Raoul</p>
+            </div>
+
+            <div class="box2">
+                   <a href=""> <img src=""></a>
+                    <h1>The Magister</h1>
+                    <p>Zeljko Ivanek</p>
+            </div>
+
+            <div class="box2">
+                   <a href=""> <img src=""></a>
+                    <h1>Amy Burley</h1>
+                    <p>Lizzy Caplan</p>
+            </div>
+
+            <div class="box2">
+                   <a href=""> <img src=""></a>
+                    <h1>Malcom</h1>
+                    <p>Andrew Rothenberg</p>
+            </div>
+
+            <div class="box2">
+                   <a href=""> <img src=""></a>
+                    <h1>Diane</h1>
+                    <p>Aunjaneu Ellis</p>
+            </div>
+
+            <div class="box2">
+                   <a href=""> <img src=""></a>
+                    <h1>Liam</h1>
+                    <p>Graham Shiels</p>
+            </div>
+
+            //2 temp//
+
+            <div class="box2">
+                   <a href=""> <img src=""></a>
+                    <h1></h1>
+                    <p></p>
+            </div>
+
+            <div class="box2">
+                   <a href=""> <img src="/"></a>
+                    <h1></h1>
+                    <p></p>
+            </div>
+
+            <div class="box2">
+                   <a href=""> <img src="/"></a>
+                    <h1></h1>
+                    <p></p>
+            </div>
+
+            <div class="box2">
+                   <a href=""> <img src=""></a>
+                    <h1></h1>
+                    <p></p>
+            </div>
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> <img src="/content/dam/hbodata/series/true-blood/character/godric-512x512.jpg/_jcr_content/renditions/cq5dam.web.260.260.jpeg"></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> <img src="/content/dam/hbodata/series/true-blood/character/daphne-512x512.jpg/_jcr_content/renditions/cq5dam.web.260.260.jpeg"></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> <img src="/content/dam/hbodata/series/true-blood/character/5/steve-newlin-512x512.jpg/_jcr_content/renditions/cq5dam.web.260.260.jpeg"></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> <img src="/content/dam/hbodata/series/true-blood/character/luke-512x512.jpg/_jcr_content/renditions/cq5dam.web.260.260.jpeg"></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> <img src="/content/dam/hbodata/series/true-blood/character/karl-512x512.jpg/_jcr_content/renditions/cq5dam.web.260.260.jpeg"></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> <img src="/content/dam/hbodata/series/true-blood/character/jesus-velasquez-512x512.jpg/_jcr_content/renditions/cq5dam.web.260.260.jpeg"></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> <img src="/content/dam/hbodata/series/true-blood/character/4/tommy-mickens-512x512.jpg/_jcr_content/renditions/cq5dam.web.260.260.jpeg"></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> <img src="/content/dam/hbodata/series/true-blood/character/russell-edgington-512x512.jpg/_jcr_content/renditions/cq5dam.web.260.260.jpeg"></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> <img src="/content/dam/hbodata/series/true-blood/character/crystal-norris-512x512.jpg/_jcr_content/renditions/cq5dam.web.260.260.jpeg"></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> <img src="/content/dam/hbodata/series/true-blood/character/cooter-512x512.jpg/_jcr_content/renditions/cq5dam.web.260.260.jpeg"></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+
+              <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> <img src="/content/dam/hbodata/series/true-blood/character/debbie-512x512.jpg/_jcr_content/renditions/cq5dam.web.260.260.jpeg"></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> <img src="/content/dam/hbodata/series/true-blood/character/talbot-512x512.jpg/_jcr_content/renditions/cq5dam.web.260.260.jpeg"></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> <img src="/content/dam/hbodata/series/true-blood/character/franklin-mott-512x512.jpg/_jcr_content/renditions/cq5dam.web.260.260.jpeg"></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> <img src="/content/dam/hbodata/series/true-blood/character/melinda-mickens-512x512.jpg/_jcr_content/renditions/cq5dam.web.260.260.jpeg"></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> <img src="/content/dam/hbodata/series/true-blood/character/joe-lee-mickens-512x512.jpg/_jcr_content/renditions/cq5dam.web.260.260.jpeg"></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> <img src="/content/dam/hbodata/series/true-blood/character/marnie-512x512.jpg/_jcr_content/renditions/cq5dam.web.260.260.jpeg"></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> <img src="/content/dam/hbodata/series/true-blood/character/naomi-512x512.jpg/_jcr_content/renditions/cq5dam.web.260.260.jpeg"></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> <img src="/content/dam/hbodata/series/true-blood/character/katerina-512x512.jpg/_jcr_content/renditions/cq5dam.web.260.260.jpeg"></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> <img src="/content/dam/hbodata/series/true-blood/character/luna-512x512.jpg/_jcr_content/renditions/cq5dam.web.260.260.jpeg"></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> <img src="/content/dam/hbodata/series/true-blood/character/portia-bellefleur-512x512.jpg/_jcr_content/renditions/cq5dam.web.260.260.jpeg"></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> <img src="/content/dam/hbodata/series/true-blood/character/5/claude-512x512.jpg/_jcr_content/renditions/cq5dam.web.260.260.jpeg"></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> <img src="/content/dam/hbodata/series/true-blood/character/5/salome-512x512.jpg/_jcr_content/renditions/cq5dam.web.260.260.jpeg"></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> <img src="/content/dam/hbodata/series/true-blood/character/5/patrick-512x512.jpg/_jcr_content/renditions/cq5dam.web.260.260.jpeg"></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> <img src="/content/dam/hbodata/series/true-blood/character/5/nora-512x512.jpg/_jcr_content/renditions/cq5dam.web.260.260.jpeg"></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> <img src="/content/dam/hbodata/series/true-blood/character/5/martha-512x512.jpg/_jcr_content/renditions/cq5dam.web.260.260.jpeg"></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> <img src="/content/dam/hbodata/series/true-blood/character/5/roman-512x512.jpg/_jcr_content/renditions/cq5dam.web.260.260.jpeg"></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> <img src="/content/dam/hbodata/series/true-blood/character/6/governor-truman-burrell-512x512.jpg/_jcr_content/renditions/cq5dam.web.260.260.jpeg"></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> <img src="/content/dam/hbodata/series/true-blood/character/6/niall-brigant-512x512.jpg/_jcr_content/renditions/cq5dam.web.260.260.jpeg"></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> <img src="/content/dam/hbodata/series/true-blood/character/6/ben-flynn-512x512.jpg/_jcr_content/renditions/cq5dam.web.260.260.jpeg" srcset="/content/dam/hbodata/series/true-blood/character/6/ben-flynn-512x512.jpg/_jcr_content/renditions/cq5dam.web.260.260.jpeg 1x">></a>
+                    <h1>Mason</h1>S
+                    <p>Khylin Rhambo</p>
+            </div>
+
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> ></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> ></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> ></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> ></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> ></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> ></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> ></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> ></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+            <div class="box2">
+                   <a href="https://en.wikipedia.org/wiki/Khylin_Rhambo"> ></a>
+                    <h1>Mason</h1>
+                    <p>Khylin Rhambo</p>
+            </div>
+
+
+
+ 
+                
+
+        </section>
+    </body>
+</html>
