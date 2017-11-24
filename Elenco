@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Linden+Hill" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
@@ -10,8 +11,47 @@
             body {
                 margin:0px;
                 padding:0px;
-                background-color:#DCDCDC;
+                background-color:#000000;
             }
+        
+            #Menu {
+              position:fixed;
+              float:left;
+              width:100%;
+              background-color:rgba(139,0,0,1.3);
+            }
+            #Menu ul{
+              float:left;
+              width:100%;
+              height:100%;
+              padding:0px;
+              margin:0px;
+              list-style:none;
+            } 
+            #Menu ul li{
+              float:left;
+              width:19.9%;
+              margin-top:0px;
+              padding-top:10px;
+              padding-bottom:10px;
+              text-align:center;
+              font-family:arial;
+              font-size:20px;
+              border-left:1px solid #c5c9cc;
+              transition:all 0.5s;
+            } 
+            #Menu ul li:hover {
+              transition:all 0.5s;
+              background:rgba(20,20,20,0.6);
+            }  
+            #Menu ul li a{
+              color:#000000;
+              text-decoration:none;
+            } 
+            #Menu ul li a:hover{
+              color:#FFFFFF;
+            } 
+      
             .box1 img {
               width:100%;
               padding-top:0px;
@@ -19,11 +59,21 @@
             } 
 
             .intro { 
-                text-align:center;
-                font-size:30px;
-                font-family: 'Linden Hill', serif;
+                text-align: justify;
+                font-size:20px;
+                font-family:'Patua One', cursive;
                 padding-top:80px;
+                color:  #FFFFFF;
+                line-height: 25px;
+                margin-left: 20%;
+                width: 60%;
             } 
+
+            .img_trueblood {
+                display: block;
+                margin-left: auto;
+                margin-right: auto 
+            }
 
             .imagens { 
                margin:auto;
@@ -50,6 +100,7 @@
                 line-height: 0.0;
                 text-align: center;
                 font-family: 'Quicksand', sans-serif;
+                color: #FFFFFF;
             } 
 
             .box2 h1 {
@@ -57,19 +108,33 @@
                 margin-top:5px;
                 text-align:center;
                 padding-top: 5px;
-                font-family: 'Libre Baskerville', serif;
+                font-family: 'Archivo Narrow', sans-serif;
                 padding-left:5px;
+                color: #FFFFFF;
             } 
 
             .box2:hover { 
-                background-color: #CDC9C9;
+                background-color: rgba(139,0,0,1.3);
                 transition: all 0.5s;
             } 
+
+          
+          
        
         </style>
     </head>
 
     <body> 
+
+      <div id="Menu">
+          <ul>
+            <li><a href="#">Sobre<a></li>
+            <li><a href="#">Temporadas<a></li>
+            <li><a href="#">Home<a></li>
+            <li><a href="#">Personagens<a></li>
+            <li><a href="#">Curiosidades<a></li>
+          </ul>
+      </div>
 
         <section class="S-inicio"> 
             <div class="box1">
@@ -78,6 +143,8 @@
         </section> 
        
         <section class="intro">
+           <img class="img_trueblood" src="https://orig00.deviantart.net/eaf7/f/2011/285/a/7/png_true_blood_by_kikiketchup-d4cmua2.png">
+
             <h1>True Blood engloba um conjunto amplo de um elenco composto por personagens regulares e centrais, e um grupo rotativo de personagens coadjuvantes. Embora a série seja rodada na cidade estadunidense ficcional Bon Temps, Louisiana, um número notável de atores que compõem o elenco são de várias nacionalidades, não sendo portanto apenas atores americanos.</h1> 
             <p>Vamos conheçer um pouco sobre as pessoas que compõem cada personagem do elenco da série.</p> 
         </section>
