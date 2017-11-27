@@ -96,7 +96,7 @@
             .box2 {
               float:left;
               width:20%;
-              height:220px;
+              height:180px;
               padding-top:20px;
               margin-bottom:70px;
               border-radius:100%;
@@ -108,7 +108,7 @@
               width:60%;
               margin-left:20%;
               border-radius:100%;
-              margin-bottom:15px;
+              margin-bottom:10px;
             } 
 
             .box2 h1 {
@@ -116,7 +116,7 @@
                 width:100%;
                 font-size:18px;
                 text-align:center;
-                margin-top: 5px;
+                margin-top: 0px;
                 font-family: 'Archivo Narrow', sans-serif;
                 color: #FFFFFF;
             } 
@@ -137,6 +137,28 @@
                 background-color: rgba(139,0,0,1.3);
                 transition: all 0.5s;
             }
+
+            .rodape1{
+              float: left;
+              background-color:#2E2E2E; 
+              width:100%;
+              height:50px;
+            }
+            .rodape1 img{
+              margin-left:40%;
+              display:block;
+              width:20%;
+              height:80%;
+              margin-top:5px;
+            }
+
+            .rodape2{
+              float:left;
+              background-color:#585858; 
+              width:100%;
+              height:250px;
+            }
+
 
         </style>
     </head>
@@ -581,7 +603,14 @@
                     <h1>Ben Flynn</h1>
                     <p>Rob Kazinzky</p>
             </div>
-
         </section>
+
+        <div class="rodape1">
+           <img src="https://orig00.deviantart.net/eaf7/f/2011/285/a/7/png_true_blood_by_kikiketchup-d4cmua2.png" />
+        </div>
+
+        <div class="rodape2">
+          <h1></h1>
+        </div>
     </body>
 </html>
