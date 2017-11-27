@@ -68,11 +68,49 @@
         #Menu ul li a:hover{
         color:#FFFFFF;
       } 
-        .autores h1{
-          text-align: center;
-          font-size: 50px;
-        }
-       
+      
+      .secao-autores{
+        width:100%;
+        /*border-bottom: 1px dashed #9c9c9c;*/
+      }
+      .box3{
+        float:left;
+        margin-left:2.5%;
+        width:45%;
+      }
+      .box3 img {
+        float:left;
+        width:40%;
+        height:150px;
+        display:block;
+        margin-left:30%;
+        
+      }
+      .box3 h2 {
+        float:left;
+        width:100%;
+        text-align:center;
+        color:#7f7f7f;
+        font-size:15px;
+        text-transform:uppercase;
+        margin-bottom:0;
+      }
+      .box3 h1{
+        float:left;
+        color:#000000;
+        margin-top:10px;
+        font-size:40px;
+        width:100%;
+        text-align:center;
+      }
+      
+      .box3:hover{
+        background-color:rgba(139,0,0,1.0);
+        border-radius:5px;
+        transition:all 0.5s;
+      }
+
+
 
        </style>
     </head>
@@ -95,13 +133,19 @@
             <p>True Blood (título no Brasil) True Blood e em (Portugal) Sangue Fresco) foi uma série de televisão norte-americana criada por Alan Ball, baseada na série de livros The Southern Vampire Mysteries da escritora Charlaine Harris. O programa é exibido pela HBO nos Estados Unidos e foi ao ar pela primeira vez no dia 7 de Setembro de 2008.True Blood fala sobre a co-existência de vampiros e humanos em "Bon Temps", uma pequena cidade fictícia localizada em Louisiana. A série é focada em Sookie Stackhouse (Anna Paquin), uma garçonete telepata que se apaixona pelo vampiro Bill Compton (Stephen Moyer).Exibida no Brasil pela HBO aos domingos e na TV Aberta de 13 janeiro de 2013 a 16 de março de 2014 no SBT, na madrugada de domingo para segunda após o De Frente com Gabi. Em Portugal a série estreou em canal aberto pela RTP mas é transmitida em exclusivo pelo canal de cabo MOV, que estreou a primeira temporada em dezembro de 2008.A série recebeu elogios da crítica e ganhou vários prêmios, incluindo um Globo de Ouro, um Emmy e quatro Satellite Awards.</p>
          </section>
 
-         <section class="autores">
-                 <h1> AUTORES</h1>
+         <section class="autores secao-autores">
+              <div class="box3"> 
+               <img src="https://pmcdeadline2.files.wordpress.com/2016/07/alan-ball-3.jpg?w=446&h=299&crop=1" width="200">
+               <h2>CRIADOR</h2>
+               <h1>Alan ball</h1>
+              </div>
 
-                 <h2>Alan Ball</h2>
-                   <img src="https://cdn1.thr.com/sites/default/files/imagecache/NFE_portrait/2013/06/alan_ball.jpg" style="width:250px">
-                 <h2>Charlaine Harris</h2>
-                    <img src="http://fantasy-faction.com/wp-content/uploads/2014/05/550w_starsnaps_us_charlaine_harris.jpg" style="width:250px" >                  
-         </section>
-        </body>
+              <div class="box3"> 
+               <img src="http://www3.pictures.zimbio.com/gi/Premiere+HBO+True+Blood+Season+4+Red+Carpet+-BBKE8SMIe2m.jpg" width="200">
+               <h2>ESCRITORA</h2>
+               <h1>Charlaine Harris</h1>
+              </div>
+              
+        </section>
+      </body>
 </html>         	
