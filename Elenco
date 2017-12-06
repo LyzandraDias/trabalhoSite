@@ -649,9 +649,9 @@
           </p>
           <hr/>
           <div class="area_redes_sociais">
-            <img src="https://cdn4.iconfinder.com/data/icons/black-ink-grunge-social-media/512/097668-facebook-logo-square.png" title="facebook" alt="" />
-            <img src="http://cdn.mysitemyway.com/etc-mysitemyway/webtreats/assets/posts/732/icons/grunge-stamp-new-twitter-bird-square.png" title="twitter" alt="" />
-            <img src="http://www.underwaterdepot.net/SocialIcons/distress-instagram.png" title="instagram" alt="" />
+            <a href=""><img src="https://cdn4.iconfinder.com/data/icons/black-ink-grunge-social-media/512/097668-facebook-logo-square.png" title="facebook" alt="" /></a>
+            <a href="https://twitter.com/truebloodhbo"><img src="http://cdn.mysitemyway.com/etc-mysitemyway/webtreats/assets/posts/732/icons/grunge-stamp-new-twitter-bird-square.png" title="twitter" alt="" /></a>
+            <a href="https://www.instagram.com/truebloodhbo/"><img src="http://www.underwaterdepot.net/SocialIcons/distress-instagram.png" title="instagram" alt="" /></a>
           </div>
         </div>
     </body>
