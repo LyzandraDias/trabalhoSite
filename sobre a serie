@@ -110,7 +110,59 @@
         transition:all 0.5s;
       }
 
+       .rodape1{
+              float: left;
+              background-color:#2E2E2E; 
+              width:100%;
+              height:50px;
+            }
+            .rodape1 img{
+              margin-left:40%;
+              display:block;
+              width:20%;
+              height:80%;
+              margin-top:5px;
+            }
 
+            .rodape2{
+              float:left;
+              background-color:#585858; 
+              width:100%;
+              height:250px;
+            }
+            .rodape2 .p1 {
+              float:left;
+              width:70%;
+              margin-left:15%;
+              font-family:century gothic;
+              font-weight:bold;
+              font-size:20px;
+              color:#000;
+              text-align:center;
+            }
+            .rodape2 hr {
+              float:left;
+              border:none;
+              width:60%;
+              margin-left:20%;
+              height:2px;
+              background-color:#8B0000;
+            }
+            .rodape2 .area_redes_sociais {
+              float:left;
+              width:26.8%;
+              height:60px;
+              background-color:;
+              margin-left:35%;
+            }
+            .rodape2 .area_redes_sociais img {
+              float:left;
+              width:60px;
+              height:60px;
+              background-color:;
+              margin-right:30px;
+              margin-left:30px;
+            }
 
        </style>
     </head>
@@ -145,7 +197,23 @@
                <h2>ESCRITORA</h2>
                <h1>Charlaine Harris</h1>
               </div>
-              
-        </section>
+          </section>
+          
+        <div class="rodape1">
+           <img src="https://orig00.deviantart.net/eaf7/f/2011/285/a/7/png_true_blood_by_kikiketchup-d4cmua2.png" />
+        </div>
+
+        <div class="rodape2">
+
+          <p class="p1">
+            Follow US
+          </p>
+          <hr/>
+          <div class="area_redes_sociais">
+            <img src="https://cdn4.iconfinder.com/data/icons/black-ink-grunge-social-media/512/097668-facebook-logo-square.png" title="facebook" alt="" />
+            <img src="http://cdn.mysitemyway.com/etc-mysitemyway/webtreats/assets/posts/732/icons/grunge-stamp-new-twitter-bird-square.png" title="twitter" alt="" />
+            <img src="http://www.underwaterdepot.net/SocialIcons/distress-instagram.png" title="instagram" alt="" />
+          </div>
+        </div>
       </body>
 </html>         	
