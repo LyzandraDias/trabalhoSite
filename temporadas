@@ -48,7 +48,84 @@
               color:#FFFFFF;
             }
 
-		
+		      .demo-3 {
+            position:relative;
+            width:300px;
+            height:200px;
+            overflow:hidden;
+           float:left;
+           margin-right:20px
+          }
+         .demo-3 figure {
+           margin:0;
+          padding:0;
+          position:relative;
+          cursor:pointer;
+          margin-left:-50px
+         }
+         .demo-3 figure img {
+          display:block;
+         position:relative;
+         height: 200px;
+         z-index:10;
+         margin:-60px 0
+         height:20px;
+        }
+       .demo-3 figure figcaption {
+         display:block;
+        position:absolute;
+        z-index:5;
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        box-sizing:border-box
+       }
+      .demo-3 figure h2 {
+        font-family:'Lato';
+       color:#fff;
+       font-size:20px;
+       text-align:left
+      }
+     .demo-3 figure p {
+      display:block;
+      font-family:'Lato';
+      font-size:12px;
+      line-height:18px;
+      margin:0;
+      color:#fff;
+      text-align:left
+     }
+     .demo-3 figure figcaption {
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+      padding:29px 44px;
+      background-color:rgba(139,0,0,1.3);
+      text-align:center;
+      backface-visibility:hidden;
+      -webkit-transform:rotateY(-180deg);
+      -moz-transform:rotateY(-180deg);
+      transform:rotateY(-180deg);
+      -webkit-transition:all .5s;
+      -moz-transition:all .5s;
+      transition:all .5s
+    }
+    .demo-3 figure img {
+      backface-visibility:hidden;
+      -webkit-transition:all .5s;
+      -moz-transition:all .5s;
+      transition:all .5s
+    }
+    .demo-3 figure:hover img,figure.hover img {
+      -webkit-transform:rotateY(180deg);
+      -moz-transform:rotateY(180deg);
+      transform:rotateY(180deg)
+    }
+    .demo-3 figure:hover figcaption,figure.hover figcaption {
+      -webkit-transform:rotateY(0);
+     -moz-transform:rotateY(0);
+      transform:rotateY(0)
+    }
          </style>
     </head>
 
@@ -70,9 +147,25 @@
            <img class="myslides" src="http://www.cinecompipoca.com.br/wp-content/uploads/2017/04/maxresdefault.jpg" style="width:100%">
            <img class="myslides" src="http://images.static-bluray.com/reviews/2771_2_large.jpg" style="width:100%">
            <img class="myslides" src="http://seriemaniacos.tv/wp-content/uploads/2010/08/True-Blood-3x10.jpg" style="width:100%">
+           <img class="myslides" src="http://assets.papelpop.com/wp-content/uploads/2011/09/true-blood-4x10-burning-down-the-house.jpg" style="width:100%">
+           <img class="myslides" src="http://www.apaixonadosporseries.com.br/wp-content/arquivos/2012/06/True-Blood-5a-temporada-2.jpg" style="width:100%">
+           <img class="myslides" src="http://www.teleseries.com.br/wp-content/uploads/2013/04/true-blood-season-6-spoiler-pics-13.jpg" style="width:100%">
+           <img class="myslides" src="http://www.freakpop.com.br/wp-content/uploads/2014/08/true-blood-setima-temporada-episodio-7-may-be-the-last-time-01.jpg" style="width:100%">
     
        </div>
     </section> 
+          
+    <ul class="demo-3">
+      <li>
+        <figure>
+            <img src  ="https://www.hbo.com/content/dam/hbodata/series/true-blood/episodes/1/true-blood-1-3000x1688.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg" alt=""/>
+            <figcaption>
+                <h2>Primeira Temporada</h2>
+                <p>Em todo o país, os vampiros vieram "fora do caixão" após a invenção do sangue sintético produzido em massa.</p>
+            </figcaption>
+        </figure>
+     </li>
+   </ul>
 
   <script>
        var myIndex = 0;
@@ -93,4 +186,6 @@
 
     </body>
 </html>
+
+
 
