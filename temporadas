@@ -126,11 +126,73 @@
      -moz-transform:rotateY(0);
       transform:rotateY(0)
     }
+
+    .ok{
+      font-size:40px;
+      text-align: center;
+      color:#8B0000;
+      font-family: 'Lobster', cursive;
+    }
+
+    .rodape1{
+              float: left;
+              background-color:#2E2E2E; 
+              width:100%;
+              height:50px;
+            }
+            .rodape1 img{
+              margin-left:40%;
+              display:block;
+              width:20%;
+              height:80%;
+              margin-top:5px;
+            }
+
+            .rodape2{
+              float:left;
+              background-color:#585858; 
+              width:100%;
+              height:250px;
+            }
+            .rodape2 .p1 {
+              float:left;
+              width:70%;
+              margin-left:15%;
+              font-family:century gothic;
+              font-weight:bold;
+              font-size:20px;
+              color:#000;
+              text-align:center;
+            }
+            .rodape2 hr {
+              float:left;
+              border:none;
+              width:60%;
+              margin-left:20%;
+              height:2px;
+              background-color:#8B0000;
+            }
+            .rodape2 .area_redes_sociais {
+              float:left;
+              width:26.8%;
+              height:60px;
+              background-color:;
+              margin-left:35%;
+            }
+            .rodape2 .area_redes_sociais img {
+              float:left;
+              width:60px;
+              height:60px;
+              background-color:;
+              margin-right:30px;
+              margin-left:30px;
+            }
          </style>
     </head>
 
     
     <body> 
+       <body bgcolor=#000000>
 
       <div id="Menu">
           <ul>
@@ -154,6 +216,9 @@
     
        </div>
     </section> 
+    <section class ="ok">
+            <h2>Leia um pouco sobre cada temporada</h2>
+         </section>
           
     <ul class="demo-3">
       <li>
@@ -166,6 +231,90 @@
         </figure>
      </li>
    </ul>
+   <ul class="demo-3">
+      <li>
+        <figure>
+            <img src  ="https://www.hbo.com/content/dam/hbodata/series/true-blood/episodes/2/true-blood-2-3000x1688.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg" alt=""/>
+            <figcaption>
+                <h2>Segunda Temporada</h2>
+                <p>Bem-vindo de volta a Bon Temps, lar do mistério, da sensualidade sulista e segredos sombrios. Para Sookie Stackhouse, a vida está mais perigosa do que antes de ela e Bill se envolverem mais profundamente.</p>
+            </figcaption>
+        </figure>
+     </li>
+   </ul>
+  <ul class="demo-3">
+      <li>
+        <figure>
+            <img src  ="https://www.hbo.com/content/dam/hbodata/series/true-blood/episodes/3/true-blood-3-3000x1688.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg" alt=""/>
+            <figcaption>
+                <h2>Terceira Temporada</h2>
+                <p>Com o desaparecimento de Bill, Sookie está disposta a qualquer coisa para desvendar o paradeiro de seu namorado. Para isso ela terá a ajuda de Eric e também do lobisomem Alcide Harveaux.</p>
+            </figcaption>
+        </figure>
+     </li>
+   </ul>
+  <ul class="demo-3">
+      <li>
+        <figure>
+            <img src  ="https://www.hbo.com/content/dam/hbodata/series/true-blood/episodes/4/true-blood-4-3000x1688.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg" alt=""/>
+            <figcaption>
+                <h2>Quarta Temporada</h2>
+                <p>Sookie (Anna Paquin) está solteira, mas continua rodeada por pretendentes de quase todo o espectro sobrenatural: os vampiros Bill (Stephen Moyer) e Eric (Alexander Skarsgard) e o lobisomem Alcide (Joe Manganiello).</p>
+            </figcaption>
+        </figure>
+     </li>
+   </ul>
+  <ul class="demo-3">
+      <li>
+        <figure>
+            <img src  ="https://www.hbo.com/content/dam/hbodata/series/true-blood/episodes/5/true-blood-5-3000x1688.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg" alt=""/>
+            <figcaption>
+                <h2>Quinta Temporada</h2>
+                <p>A trama tem três principais focos: Bill e Eric; Sokie e Jason; Sam, Luna e Emma. Entre as histórias paralelas, há o caso dos traumas psicológicos de Terry em relação ao seu tempo.</p>
+            </figcaption>
+        </figure>
+     </li>
+ </ul>
+  <ul class="demo-3">
+      <li>
+        <figure>
+            <img src  ="https://www.hbo.com/content/dam/hbodata/series/true-blood/episodes/6/true-blood-6-3000x1688.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg" alt=""/>
+            <figcaption>
+                <h2>Sexta Temporada</h2>
+                <p>Em sua sexta temporada, o pouco de normalidade que restava em Bon Temps está ameaçada. Enquanto "Billith" se acostuma com seus novos poderes após emergir de uma piscina de sangue.</p>
+            </figcaption>
+        </figure>
+     </li>
+  </ul> 
+    
+  <ul class="demo-3">
+      <li>
+        <figure>
+            <img src  ="https://www.hbo.com/content/dam/hbodata/series/true-blood/episodes/7/true-blood-7-3000x1688.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg" alt=""/>
+            <figcaption>
+                <h2>Sétima Temporada</h2>
+                <p>Nesta as coisas voltaram a ser simples ao focar nos dramas dos moradores de Bon Temps. Embora o clima apocalíptico causado pela hepatite vampiresca tenha chegado à cidade, as tramas se mantiveram no psicológico de seus personagens.</p>
+            </figcaption>
+        </figure>
+     </li>
+  </ul> 
+
+  <div class="rodape1">
+           <img src="https://orig00.deviantart.net/eaf7/f/2011/285/a/7/png_true_blood_by_kikiketchup-d4cmua2.png" />
+        </div>
+
+        <div class="rodape2">
+
+          <p class="p1">
+            Follow US
+          </p>
+          <hr/>
+          <div class="area_redes_sociais">
+            <a href=""><img src="https://cdn4.iconfinder.com/data/icons/black-ink-grunge-social-media/512/097668-facebook-logo-square.png" title="facebook" alt="" /></a>
+            <a href="https://twitter.com/truebloodhbo"><img src="http://cdn.mysitemyway.com/etc-mysitemyway/webtreats/assets/posts/732/icons/grunge-stamp-new-twitter-bird-square.png" title="twitter" alt="" /></a>
+            <a href="https://www.instagram.com/truebloodhbo/"><img src="http://www.underwaterdepot.net/SocialIcons/distress-instagram.png" title="instagram" alt="" /></a>
+          </div>
+        </div>
 
   <script>
        var myIndex = 0;
@@ -186,6 +335,3 @@
 
     </body>
 </html>
-
-
-
