@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			 body {
+                margin:0px;
+                padding:0px;
+                background-color:#A2B5CD;
+            }
+        
+            #Menu {
+              position:fixed;
+              float:left;
+              width:100%;
+              background-color:#104E8B;
+            }
+            #Menu ul{
+              float:left;
+              width:100%;
+              height:100%;
+              padding:0px;
+              margin:0px;
+              list-style:none;
+            } 
+            #Menu ul li{
+              float:left;
+              width:33%;
+              margin-top:0px;
+              padding-top:10px;
+              padding-bottom:10px;
+              text-align:center;
+              font-family:arial;
+              font-size:20px;
+              border-left:1px solid #c5c9cc;
+              transition:all 0.5s;
+            } 
+            #Menu ul li:hover {
+              transition:all 0.5s;
+              background:rgba(20,20,20,0.6);
+            }  
+            #Menu ul li a{
+              color:#000000;
+              text-decoration:none;
+            } 
+            #Menu ul li a:hover{
+              color:#FFFFFF;
+            }
+            .box1 img {
+              width:100%;
+              padding-top:0px;
+              
+            } 
+            .bemvindos { 
+                text-align: justify;
+                font-size:20px;
+                font-family:'Patua One', cursive;
+                padding-top:80px;
+                color:  #FFFFFF;
+                line-height: 25px;
+                margin-left: 20%;
+                width: 60%;
+            } 
+              .img_med {
+                display: block;
+                margin-left: auto;
+                margin-right: auto 
+            }
+
+		</style>
+	</head>
+
+	<body>
+
+		<div id="Menu">
+          <ul>
+            <li><a href="#">Grey's Anatomy<a></li>
+            <li><a href="#">Home<a></li>
+            <li><a href="#">The Good doctor<a></li>
+          </ul>
+      	</div>
+
+      	<section class="imagemInicial"> 
+            <div class="box1">
+                <img src="https://a248.e.akamai.net/ib.huluim.com/show_key_art/2252?size=1600x600&region=US">
+            </div> 
+        </section> 
+
+        <section class="bemvindos">
+           <img class="img_med" src="https://djriqayym0hsz.cloudfront.net/wp-content/uploads/2015/05/medical-logo.png">
+
+            <h1>True Blood engloba um conjunto amplo de um elenco composto por personagens regulares e centrais, e um grupo rotativo de personagens coadjuvantes. Embora a série seja rodada na cidade estadunidense ficcional Bon Temps, Louisiana, um número notável de atores que compõem o elenco são de várias nacionalidades, não sendo portanto apenas atores americanos.</h1> 
+            <p>Vamos conheçer um pouco sobre as pessoas que compõem cada personagem do elenco da série.</p> 
+        </section>
+
+	</body>
+</html>
